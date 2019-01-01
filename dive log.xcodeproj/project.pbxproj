@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5053DAF021DB59870047AE76 /* DiveLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053DAEF21DB59870047AE76 /* DiveLog.swift */; };
+		5053DAF221DB5DEF0047AE76 /* DiveLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053DAF121DB5DEF0047AE76 /* DiveLogTableViewCell.swift */; };
+		5053DAF621DB61130047AE76 /* DiveLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053DAF521DB61130047AE76 /* DiveLogTableViewController.swift */; };
 		5087C39321CE4B69008899E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5087C39221CE4B69008899E2 /* AppDelegate.swift */; };
-		5087C39521CE4B69008899E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5087C39421CE4B69008899E2 /* ViewController.swift */; };
+		5087C39521CE4B69008899E2 /* DiveLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5087C39421CE4B69008899E2 /* DiveLogViewController.swift */; };
 		5087C39821CE4B69008899E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5087C39621CE4B69008899E2 /* Main.storyboard */; };
 		5087C39B21CE4B69008899E2 /* dive_log.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5087C39921CE4B69008899E2 /* dive_log.xcdatamodeld */; };
 		5087C39D21CE4B6B008899E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5087C39C21CE4B6B008899E2 /* Assets.xcassets */; };
@@ -16,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5053DAEF21DB59870047AE76 /* DiveLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveLog.swift; sourceTree = "<group>"; };
+		5053DAF121DB5DEF0047AE76 /* DiveLogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveLogTableViewCell.swift; sourceTree = "<group>"; };
+		5053DAF521DB61130047AE76 /* DiveLogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveLogTableViewController.swift; sourceTree = "<group>"; };
 		5087C38F21CE4B69008899E2 /* dive log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dive log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5087C39221CE4B69008899E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5087C39421CE4B69008899E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5087C39421CE4B69008899E2 /* DiveLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiveLogViewController.swift; sourceTree = "<group>"; };
 		5087C39721CE4B69008899E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5087C39A21CE4B69008899E2 /* dive_log.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dive_log.xcdatamodel; sourceTree = "<group>"; };
 		5087C39C21CE4B6B008899E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				5087C39221CE4B69008899E2 /* AppDelegate.swift */,
-				5087C39421CE4B69008899E2 /* ViewController.swift */,
+				5087C39421CE4B69008899E2 /* DiveLogViewController.swift */,
 				5087C39621CE4B69008899E2 /* Main.storyboard */,
+				5053DAF121DB5DEF0047AE76 /* DiveLogTableViewCell.swift */,
+				5053DAEF21DB59870047AE76 /* DiveLog.swift */,
 				5087C39C21CE4B6B008899E2 /* Assets.xcassets */,
 				5087C39E21CE4B6B008899E2 /* LaunchScreen.storyboard */,
 				5087C3A121CE4B6B008899E2 /* Info.plist */,
 				5087C39921CE4B69008899E2 /* dive_log.xcdatamodeld */,
+				5053DAF521DB61130047AE76 /* DiveLogTableViewController.swift */,
 			);
 			path = "dive log";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5053DAF621DB61130047AE76 /* DiveLogTableViewController.swift in Sources */,
 				5087C39B21CE4B69008899E2 /* dive_log.xcdatamodeld in Sources */,
-				5087C39521CE4B69008899E2 /* ViewController.swift in Sources */,
+				5087C39521CE4B69008899E2 /* DiveLogViewController.swift in Sources */,
+				5053DAF021DB59870047AE76 /* DiveLog.swift in Sources */,
+				5053DAF221DB5DEF0047AE76 /* DiveLogTableViewCell.swift in Sources */,
 				5087C39321CE4B69008899E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
