@@ -5,8 +5,8 @@ It will be made with Swift and xcode.
 
 To-do
 - [ ] 1. Input dive log by manual.
-   - Need to specify log detail first.
-   - Need proper input template.
+   - [ ] Need to specify log detail first.
+   - [ ] Need proper input template.
    - https://en.wikipedia.org/wiki/Dive_log
    - http://www.libdivecomputer.org/
 - [ ] 2. Input dive log from file.
