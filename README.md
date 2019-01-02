@@ -16,7 +16,7 @@ To-do
     - [X] Touch to edit
     - [X] Add log
     - [X] Delete log by edit button
-    - [] Add photo to list
+    - [ ] Add photo to list
 - [ ] 4. Add Map info in dive log
 - [ ] 5. Add Photo in dive log
 - [ ] 6. Save dive log in local stroage.
