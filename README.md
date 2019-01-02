@@ -9,10 +9,12 @@ To-do
    - [ ] Need proper input template.
    - https://en.wikipedia.org/wiki/Dive_log
    - http://www.libdivecomputer.org/
+   - [x] Create input view
 - [ ] 2. Input dive log from file.
    - https://en.wikipedia.org/wiki/Subsurface_(software)
-- [ ] 3. Add Map info in dive log
-- [ ] 4. Add Photo in dive log
-- [ ] 5. Save dive log in local stroage.
-- [ ] 6. Save log in persistent storage
+- [X] 3. Create Table View for list dive log.  
+- [ ] 4. Add Map info in dive log
+- [ ] 5. Add Photo in dive log
+- [ ] 6. Save dive log in local stroage.
+- [ ] 7. Save log in persistent storage
 
