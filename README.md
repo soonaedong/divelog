@@ -12,7 +12,11 @@ To-do
    - [x] Create input view
 - [ ] 2. Input dive log from file.
    - https://en.wikipedia.org/wiki/Subsurface_(software)
-- [X] 3. Create Table View for list dive log.  
+- [] 3. Create Table View for list dive log.  
+    - [X] Touch to edit
+    - [X] Add log
+    - [X] Delete log by edit button
+    - [] Add photo to list
 - [ ] 4. Add Map info in dive log
 - [ ] 5. Add Photo in dive log
 - [ ] 6. Save dive log in local stroage.
