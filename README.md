@@ -22,3 +22,5 @@ To-do
 - [ ] 6. Save dive log in local stroage.
 - [ ] 7. Save log in persistent storage
 
+Plan
+https://docs.google.com/presentation/d/1naxQNExZsS9rw7vKwmMb0swpLSUzCMvVsP8m8VP0wec/edit?usp=sharing
